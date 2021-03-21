@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    background: rgb(219, 222, 236);
+}
+.navbar{
+   width: 100%;
+   height: 55px; 
+   background-color: rgba(25, 25, 226, 0.829);
+   display: flex;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    position: relative;
+    margin-left: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+.logo{
+    height: 40px;
+    margin: 8px 0px 0px 75px;
+}
+.logo-name{
+    color: white;
+    margin-left: 10px;
+}
+.profile {
+    height: 35px;
+    margin-top: 11px;
+    margin-right: 75px;
+}
+/* finish of navbar */
+
+    /* first section started */
+.upper-section{
+    height: 550px;
+    background-color: rgb(252, 252, 252);
+    margin: 20px 80px 0px 80px;
+    border-radius: 2px;
+}
+.header{
+    margin-left: 85px;
+    padding-top: 10px;
+    color: rgba(25, 25, 226, 0.829);
+}
+.top-players{
+    height: 110px;
+    width: 100%;
+    display: flex;
+}
+.players{
+    width: 30%;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.character{
+    height: 40px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+.character-name1{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.character-name2{
+    margin-left: 100px;
+    margin-top: 34px;
+}
+hr{
+    width: 85%;
+    align-content: center;
+}
+  /* first article of first section finished */
+.top-blog{
+    height: 390px;
+    padding-top: 20px;
+}
+.name-highlight{
+    color: rgba(25, 25, 226, 0.829);
+}
+.blogs{
+    width: 40%;
+    margin-left: 65px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    float: left;
+}
+.display-blog{
+    height: 100px;
+    float: left;
+    margin-left: 12px;
+    border-radius: 5px 5px 5px 6px;
+    padding-right: 12px;
+    padding-top: 7px;
+}
+.blogs-description1{
+    /* margin-top: 20px; */
+    padding-bottom: 7px;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+.blogs-description2{
+    font-weight: 500;
+    padding-top: 25px;
+    word-spacing: 3px;
+}
+.last-section{
+    background-color: rgb(255, 255, 255);
+    margin: 20px 80px 10px 80px;
+    height: 300px;
+    border-radius: 2px;
+}
+.courses{
+    width: 27%;
+    /* border: 1px solid gray; */
+    float: left;
+    margin-left: 37px;
+    padding: 25px;
+    box-shadow: 4px 4px 5px rgb(240, 240, 240);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 235px;
+}
+.red-name-highlight{
+    color: rgb(185, 41, 41);
+}
+.courses-image{
+    width: 100%;
+    border-radius: 6px;
+}
+.star{
+    height: 10px;
+    margin-left: auto;
+    margin-bottom: 8px;
+    /* padding-right: 1px; */
+}
+.rating{
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.time{
+    width: 80px;
+}
